@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #666;
+}
+
+.header {
+    border-bottom: 1px solid #ccc;
+
+}
+
+header .nav .menu {
+    display: flex;
+}
+
+.header .nav .menu li {
+    margin-right: 50px;
+}
+
+.header .nav button {
+    height: 46px;
+    width: 100px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 46px;
+}
+
+.header .nav {
+    width: 1000px;
+    margin: 0 auto;
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+
+.header .nav .logo {
+    display: flex;
+    align-items: center;
+    margin-right: 0 auto;
+    gap: 10px;
+
+}
+
+
+.hero {
+    margin: 150px 0;
+}
+
+.hero .contents {
+    width: 1200px;
+    margin: 0 auto;
+}
+.hero .contents .top{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.hero .contents .top .texts {}
+.hero .contents .top .texts h3 {
+    font-size: 24;
+    font-weight: normal;
+    color: #444;
+}
+.hero .contents .top .texts h2{
+    font-size: 60px;
+    color: #444;
+    line-height: 1.1;
+}
+.hero .contents .top .texts p{
+    font-size: 20;
+    line-height: 1.4;
+    margin-top: 16px;
+    margin-bottom: 20%;
+}
+.hero .contents .top .bts {
+    display: flex;
+    gap: 24px;
+}
+.hero .contents .top .bts button {
+    height: 48px;
+    width: 100px;
+    border:  1px solid #444;
+    background-color: #444;
+    color: #fff;
+    border-radius: 46px;
+}
+
+.hero .contents .top .bts button .outline {
+    background-color: transparent;
+    color: #444;
+}
+
+.hero .contents .top .photo img {
+    width: 570px;
+}
+
+.hero .contents .bottom {}
+.hero .contents .bottom p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero .contents .bottom .banners {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
