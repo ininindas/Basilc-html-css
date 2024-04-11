@@ -1,0 +1,37 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 1200px;
+}
+
+.header .nav {
+    align-items: center;
+    margin-top: 100px;
+    color: #444;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.header .nav .text h1 {
+    margin-bottom: 50px;
+}
+
+.header .nav .text p {
+    font-size: 18px;
+}
+
+.hero_wrap .hero .box {
+    width: 450px;
+    height: 450px;
+    border-top: 1px solid #444;
+    border-left: 1px solid#444;
+    border-right: 1px solid#444;
+    border-bottom: 1px solid#444;
+    border-radius: 300px;
+
+}
