@@ -50,6 +50,13 @@ header .nav .menu {
 
 }
 
+.header .nav .menu {
+    display: flex;
+}
+
+.header .nav .menu li {
+    margin-right: 50px;}
+
 
 .hero {
     margin: 150px 0;
