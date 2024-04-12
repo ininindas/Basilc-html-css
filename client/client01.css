@@ -72,6 +72,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 .contents .texts h3 {
@@ -101,5 +103,7 @@ body {
 
 .contents .photo img {
     height: 100%;
-    object-fit: cover
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
