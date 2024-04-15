@@ -58,7 +58,7 @@ body {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border-radius: 380px;
+    border-radius: 150px;
     margin: 0 auto;
 }
 
@@ -75,13 +75,14 @@ body {
 .list .texts .job {
     font-size: 20px;
     color: #666;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .list .texts .com {
     font-size: 15px;
     margin-bottom: 30px;
     color: #666;
+    line-height: 1.8;
 }
 
 .list .social {
