@@ -40,14 +40,14 @@ h1 {
     text-align: right;
     cursor: pointer;
 }
-
+/* cursor: pointer 마우스가져가면 손까락나옴 */
 .cal td:hover {
     background-color: #eee;
 }
-
+/* :hover마우스 가져가면 색깔 바뀜*/
 .cal th:last-child,
 .cal td:last-child {
-    color: rgb(51, 46, 116);
+    color: #332e74;
 }
 
 .cal th:first-child,
