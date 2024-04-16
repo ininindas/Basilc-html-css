@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    margin: 30px 0;
+    border-collapse: collapse;
+    /* 겹치는거 없에는거 */
+}
+
+.wrap {
+    width: 800px;
+    margin: 50px auto;
+}
+
+.tbl_01 {
+    text-align: center;
+}
+
+.tbl_01 td,
+.tbl_01 th {
+    border:  1px solid #666;
+    padding: 10px;
+}
+/* ,=or 둘다쓸수있숨 */
+
+.tbl_02 {
+    text-align: center;
+}
+
+.tbl_02 th,
+.tbl_02 td {
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+.tbl_02 tr:nth-child(odd) {
+    background-color: #ddd;
+}
+/* :nth-child() 색깔주기 odd 홀수칸 even 짝수칸 */
+
+.tbl_03 {
+    text-align: center;
+}
+
+.tbl_03 th,
+.tbl_03 td {
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+.tbl_03 tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+.tbl_03 tr td:first-child,
+.tbl_03 tr th:first-child {
+    border-left: none;
+}
+
+.tbl_03 tr td:last-child,
+.tbl_03 tr th:last-child {
+    border-right: none;
+}
+/* :first-child 첫번째칸 :last-child 마지막칸 border none주고 없에기 */
