@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    color: #111;
+    font-size: 14px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+}
+
+.login_wrap {
+    width: 1000px;
+    margin: 160px auto;
+    display: flex;
+    border:  1px solid #ccc;
+    border-radius: 10px;
+}
+
+.login_wrap form {
+    display: flex;
+    flex-direction: column; /*플렉스 세로로 바꾸기*/
+    gap: 10px;
+}
+
+.login_form {
+    width: 560px;
+    padding: 80px 60px;
+}
+
+.login_form h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.login_form form {
+    margin-bottom: 20px;
+}
+
+.login_form form input {
+    height: 50px;
+    padding: 8px 15px;
+    border: 1px solid #eee;
+    background-color: #f7f7f7f7;
+    border-radius: 4px;
+}
+
+.line_text {
+    margin-bottom: 16px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    position: relative;
+    /* position: absolute; = 독자적인 개체로 만들어버림 영역의 영향을 받지않음  기준은 body -값은 밖으로 보내버림 기준은 상위개체에 position: relative;를 주면 바뀜*/
+    /* position: fixed; = 고정? */
+    /* position: static; = 노말 상태 */
+}
+
+.line_text::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 44%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.line_text::after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    right: 0;
+    width: 44%;
+    height: 1px;
+    background-color: #ccc;
+}
